@@ -6,7 +6,7 @@ import { defineConfig } from "vite";
 const plugins = [react(), tailwindcss()];
 
 export default defineConfig({
-  base: "/facilitando-seu-pedido-expresso/", // Ajuste para o nome do repositório
+  base: "/", // Ajuste para o nome do repositório
   plugins,
   resolve: {
     alias: {
